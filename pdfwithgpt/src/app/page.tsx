@@ -12,7 +12,7 @@ export default async function Home() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center">
-            <h1 className="mr-3 text-5xl font-semibold">Converse com qualquer PDF</h1>
+            <h1 className="mr-3 text-5xl font-semibol line- ">Interaja com qualquer PDF</h1>
             <UserButton afterSignOutUrl="/"/>
           </div>
 
@@ -20,8 +20,8 @@ export default async function Home() {
             {isAuth && <Button>Ir para os arquivos</Button>}
           </div>
 
-          <p className="max-w-xl mt-1 text-lg text-slate-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro pariatur repellendus tempora. Repellat, iure tenetur odit temporibus consequuntur impedit cupiditate repudiandae voluptas nesciunt obcaecati sed quidem sunt possimus. Eveniet, atque.
+          <p className="max-w-xl text-lg text-slate-600 mt-3">
+          Experimente a magia da IA em PDFs hoje mesmo! Dê um passo à frente e explore o potencial ilimitado da IA para revolucionar seu fluxo de trabalho com PDFs!
           </p>
 
           <div className="w-full mt-4">
